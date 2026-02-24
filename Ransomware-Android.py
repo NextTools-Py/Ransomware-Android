@@ -23,7 +23,7 @@ THREADS = 100
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def random_filename(extension, length=100):
+def random_filename(extension, length=500):
     name = ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
     return name + extension
 
